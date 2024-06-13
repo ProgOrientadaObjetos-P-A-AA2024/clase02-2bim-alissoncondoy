@@ -64,7 +64,7 @@ public class Estudiante {
         String cadena = String.format("Nombre: %s\n"
                 + "Apellido: %s\n"
                 + "Identificación: %s\n"
-                + "Edad: %s\n", 
+                + "Edad: %d\n", 
                 nombresEstudiante,
                 apellidosEstudiante,
                 identificacionEstudiante,
