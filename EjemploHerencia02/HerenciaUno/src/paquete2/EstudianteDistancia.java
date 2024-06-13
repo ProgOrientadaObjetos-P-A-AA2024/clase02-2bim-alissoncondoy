@@ -1,4 +1,6 @@
 package paquete2;
+/*Tenemos error ya que la superclase Estudiante tiene un constructor por lo que la subclase
+EstudianteDistancia necesita de manera obligatoria hacer uso de este*/
 
 public class EstudianteDistancia extends Estudiante{
     
@@ -37,5 +39,4 @@ public class EstudianteDistancia extends Estudiante{
     public double obtenerMatriculaDistancia(){
         return matriculaDistancia;
     }
-
 }
